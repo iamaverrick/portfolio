@@ -1,0 +1,75 @@
+# macOS & system artifacts
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+
+# Local environment configuration
+.env
+.env.*
+.envrc
+.venv/
+venv/
+
+# Node.js / frontend tooling
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+.turbo/
+.next/
+out/
+dist/
+coverage/
+
+# Python / Django
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.pot
+*.mo
+staticfiles/
+media/
+
+# Java / Spring Boot
+target/
+.gradle/
+build/
+*.iml
+.classpath
+.project
+.settings/
+.idea/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfplan
+crash.log
+crash.*.log
+
+# Docker
+logs/
+*.log
+docker-compose.override.yml
+.docker/
+
+# Editor & tooling metadata
+.vscode/
+.env.local
+.history/
+.swp
+.swo
+*.un~
+.DS_Store?
+
+# Test artifacts
+pytest_cache/
+.pytest_cache/
+.coverage
+.hypothesis/
+junit.xml

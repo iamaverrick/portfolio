@@ -9,18 +9,26 @@ This public repository houses a curated collection of production-quality portfol
 
 ## Portfolio Blueprint
 
+**Core Concept:** Build the same e-commerce platform using different tech stacks to showcase versatility and deep understanding of modern development approaches.
+
 ```
 portfolio/
 ├── README.md
 ├── apps/
-│   ├── web/
-│   │   ├── landing/            # Marketing and personal storytelling site (Next.js + Tailwind)
-│   │   └── projects/           # Feature-rich product demos (React + Remix/Next.js)
+│   ├── ecommerce/
+│   │   ├── nextjs/             # Next.js 14 + Tailwind v4 + TypeScript
+│   │   ├── react-remix/        # Remix + React + Tailwind v4
+│   │   ├── vue-nuxt/           # Nuxt 3 + Vue 3 + Tailwind v4
+│   │   └── svelte-sveltekit/   # SvelteKit + Svelte + Tailwind v4
 │   ├── backend/
-│   │   ├── api-gateway/        # Spring Boot services (Java/Kotlin)
-│   │   └── analytics/          # Django/DRF microservice with async workers
+│   │   ├── nodejs-express/     # Node.js + Express + TypeScript
+│   │   ├── python-django/      # Django + DRF + PostgreSQL
+│   │   ├── java-spring/        # Spring Boot + Java + MySQL
+│   │   └── go-gin/             # Go + Gin + PostgreSQL
 │   └── mobile/
-│       └── showcase/           # React Native app highlighting reusable modules
+│       ├── react-native/       # React Native + TypeScript
+│       ├── flutter/            # Flutter + Dart
+│       └── swift-ios/           # Swift + SwiftUI + iOS
 ├── infrastructure/
 │   ├── terraform/
 │   │   ├── aws/
@@ -34,6 +42,8 @@ portfolio/
     ├── integration/
     └── load/
 ```
+
+**Status:** ✅ Directory structure created and ready for development
 
 Each sub-project includes a dedicated README covering scope, tech stack, architecture, setup instructions, and validation steps so reviewers can clone and run everything quickly.
 
@@ -81,7 +91,7 @@ Each sub-project includes a dedicated README covering scope, tech stack, archite
 
 ## Professional Story
 
-> I'm a self-taught full-stack engineer currently working in a craft union role with AT&T. This portfolio demonstrates the depth and polish I bring to software projects—showing how I transform ambiguous problems into reliable, scalable products. By publishing selected, high-quality builds here, I can protect client confidentiality while giving hiring teams proof of execution across frontend, backend, and DevOps domains.
+> I'm a self-taught full-stack engineer with a passion for building reliable, scalable software solutions. This portfolio demonstrates the depth and polish I bring to software projects—showing how I transform ambiguous problems into reliable, scalable products. By publishing selected, high-quality builds here, I can protect client confidentiality while giving hiring teams proof of execution across frontend, backend, and DevOps domains.
 
 ---
 
@@ -92,7 +102,7 @@ Each sub-project includes a dedicated README covering scope, tech stack, archite
 - Publish writeups on architectural tradeoffs, performance improvements, and lessons learned.
 
 **Reach out:**  
-Email: [contactme@maverrick.network](mailto:contactme@maverrick.network) *(update with preferred contact)*  
+Email: [developer@maverrick.network](mailto:developer@maverrick.network) *(update with preferred contact)*  
 LinkedIn: [linkedin.com/in/maverrick](https://www.linkedin.com/in/maverrick) *(update as needed)*
 
 ---
